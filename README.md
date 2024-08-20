@@ -10,8 +10,6 @@
 
 ## Example
 
-Output the optimized SVG to `stdout` with indent 2 and change `fill` to `"currentColor"`:
-
 ```bash
 pnpx svgo-fine input.svg
 ```
@@ -37,7 +35,7 @@ After:
 
 ## How it works
 
-It is just some fine tuning plugins settings of [svgo#removeAttributesBySelector&addAttributesToSVGElement](https://svgo.dev/docs/plugins/removeAttributesBySelector/).
+It is just some adjustment of plugin settings of [svgo#removeAttributesBySelector&addAttributesToSVGElement](https://svgo.dev/docs/plugins/removeAttributesBySelector/).
 
 So You can use settings to meet your requirements instead of using this package.
 
