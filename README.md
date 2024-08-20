@@ -2,9 +2,9 @@
   <img src="https://raw.githubusercontent.com/svg/svgo/main/logo/logo-web.svg" width="348.61" height="100" alt="SVGO-Fine"/>
 </div>
 
-# SVGO-Fine
+# svgo-fine
 
-> A tool to fine tune [svgo](https://github.com/svg/svgo) to meet my requirements.
+> A tool to fine tune [svgo](https://github.com/svg/svgo) to meet my SVG optimization requirements.
 
 ## Features
 
