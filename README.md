@@ -4,6 +4,16 @@
 
 # svgo-fine
 
+<p>
+  <a href="https://www.npmjs.com/package/svgo-fine" target="_blank">
+    <img src="https://img.shields.io/npm/v/svgo-fine.svg" alt="npm version" />
+  </a>
+
+  <a href="https://www.npmjs.com/package/svgo-fine">
+    <img src="https://img.shields.io/npm/dm/svgo-fine.svg" alt="npm downloads" />
+  </a>
+</p>
+
 > A tool to fine tune [svgo](https://github.com/svg/svgo) to meet my SVG optimization requirements.
 
 ## Features
@@ -15,7 +25,7 @@
 ## Examples
 
 ```bash
-pnpx svgo-fine input.svg
+pnpx svgo-fine -i input.svg
 ```
 
 Before:
