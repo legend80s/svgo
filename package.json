@@ -7,7 +7,6 @@
   "files": [
     "index.mjs",
     "bin.mjs",
-    "lib/config.mjs",
     "lib/fs.mjs",
     "lib/optimize.mjs"
   ],
