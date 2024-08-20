@@ -1,4 +1,8 @@
-# svgo-fine
+<div align="center">
+  <img src="./logo/logo-web.svg" width="348.61" height="100" alt=""/>
+</div>
+
+# SVGO-Fine
 
 > A tool to fine tune [svgo](https://github.com/svg/svgo) to meet my requirements.
 
@@ -8,7 +12,7 @@
 - Output to `stdout` by default to make it easier to pipe to other tools (Save to file, copy to clipboard, etc.).
 - Pretty print with indent `2` by default (WHY? Because it will be compressed anyway by your bundler, and indent is necessary for human readability and `git diff`).
 
-## Example
+## Examples
 
 ```bash
 pnpx svgo-fine input.svg
