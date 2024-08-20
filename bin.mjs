@@ -21,8 +21,14 @@ const options = {
   input: {
     type: 'string',
     description: 'Input file',
-    required: '√',
+    required: '✔ ',
     short: 'i',
+  },
+  color: {
+    type: 'string',
+    description: 'Should output with color',
+    required: '×',
+    default: 'true',
   },
 
   debug: {
@@ -49,7 +55,7 @@ async function main({ parsed, options }) {
   opts.debug && console.time('optimize');
   // console.log('opts:', opts);
 
-  optimize(opts);
+  await optimize(opts);
 
   opts.debug && console.timeEnd('optimize');
 }
