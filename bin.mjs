@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-
 import { parseArgs } from 'node:util';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 import { readJSONFile } from './lib/fs.mjs';
 import { optimize } from './lib/optimize.mjs';
 
@@ -88,7 +90,11 @@ function parse(args) {
 
 // @ts-expect-error
 async function printHelp(options) {
-  const pkg = await readJSONFile('./package.json');
+  const __dirname = path.dirname(fileURLToPath(import.meta.url));
+  const pkgPath = path.join(__dirname, './package.json');
+
+  const pkg = await readJSONFile(pkgPath);
+
   const { name, version } = pkg;
 
   console.log();
