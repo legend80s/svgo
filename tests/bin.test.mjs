@@ -12,7 +12,7 @@ beforeEach(() => {
   process.env.FORCE_COLOR = '0';
 });
 
-it('should remove params in passed args because all the params has been consumed by the url (in path)', () => {
+it('#doc-test: Example in README.md should work', () => {
   const input = `node bin.mjs -i ./assets/sample.svg`;
   const actual = execSync(input).toString('utf8');
   const expected = `<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
