@@ -3,7 +3,9 @@
   "version": "0.2.0",
   "description": "A tool to fine tune [svgo](https://github.com/svg/svgo) to meet my requirements.",
   "main": "index.mjs",
-  "bin": "bin.mjs",
+  "bin": {
+    "svgo-fine": "bin.mjs"
+  },
   "files": [
     "index.mjs",
     "bin.mjs",
