@@ -1,0 +1,39 @@
+{
+  "name": "svgo-fine",
+  "version": "0.0.0",
+  "description": "A tool to fine tune [svgo](https://github.com/svg/svgo) to meet my requirements.",
+  "main": "index.mjs",
+  "bin": "bin.mjs",
+  "files": [
+    "index.mjs",
+    "bin.mjs",
+    "lib/config.mjs",
+    "lib/fs.mjs",
+    "lib/optimize.mjs"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "legend80s",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legend80s/svgo-fine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/legend80s/svgo-fine/issues"
+  },
+  "homepage": "https://github.com/legend80s/svgo-fine",
+  "keywords": [
+    "svg",
+    "optimization",
+    "svgo",
+    "fine-tuning",
+    "fill",
+    "currentColor"
+  ],
+  "dependencies": {
+    "svgo": "^3.3.2"
+  }
+}
