@@ -21,6 +21,7 @@
 - Set `fill` to `"currentColor"` to fit in any color context.
 - Output to `stdout` by default to make it easier to pipe to other tools (Save to file, copy to clipboard, etc.).
 - Pretty print with indent `2` by default (WHY? Because it will be compressed anyway by your bundler, and indent is necessary for human readability and `git diff`).
+- Colorful output by [shikijs](https://shiki.style/packages/cli).
 
 ## Examples
 
@@ -49,6 +50,9 @@ After:
 
 ## How it works
 
+<details>
+<summary>How it works</summary>
+
 It is just some adjustment of plugin settings of [svgo#removeAttributesBySelector&addAttributesToSVGElement](https://svgo.dev/docs/plugins/removeAttributesBySelector/).
 
 So You can use settings to meet your requirements instead of using this package.
@@ -75,3 +79,5 @@ So You can use settings to meet your requirements instead of using this package.
   ]
 }
 ```
+
+</details>
