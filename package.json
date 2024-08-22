@@ -1,6 +1,6 @@
 {
   "name": "svgo-fine",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "A tool to fine tune [svgo](https://github.com/svg/svgo) to meet my requirements.",
   "main": "index.mjs",
   "bin": {
