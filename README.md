@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/svg/svgo/main/logo/logo-web.svg" width="348.61" height="100" alt="SVGO-Fine"/>
 </div>
 
-# svgo-fine
+# svgo-fine 🔬
 
 <p>
   <a href="https://www.npmjs.com/package/svgo-fine" target="_blank">
@@ -16,16 +16,17 @@
 
 > A tool to fine tune [svgo](https://github.com/svg/svgo) to meet my SVG optimization requirements.
 
-## Features
+## Features ✨
 
-- Set `fill` to `"currentColor"` to fit in any color context.
-- Correct common invalid attribute `class` to `className`.
-- Add `width` and `height` according to the viewBox.
-- Output to `stdout` by default to make it easier to pipe to other tools (Save to file, copy to clipboard, etc.).
-- Pretty print with indent `2` by default (WHY? Because it will be compressed anyway by your bundler, and indent is necessary for human readability and `git diff`).
-- Colorful output by [shikijs](https://shiki.style/packages/cli).
+- 🎨 Set `fill` to `"currentColor"` to fit in any color context.
+- ⚛️ React: Correct common invalid attribute `class` to `className`.
+- ⚛️ React: Correct hyphen case to camelCase. For example `fill-rule` to `fillRule`.
+- 🗳️ Add `width` and `height` according to the viewBox.
+- 🚰 Output to `stdout` by default to make it easier to pipe to other tools (Save to file, copy to clipboard, etc.).
+- ➡️ Pretty print with indent `2` by default (WHY? Because it will be compressed anyway by your bundler, and indent is necessary for human readability and `git diff`).
+- 🌈 Colorful output by [shikijs](https://shiki.style/packages/cli).
 
-## Examples
+## Examples 🎯
 
 optimize a SVG file and copy to clipboard:
 
@@ -56,7 +57,7 @@ After:
 </svg>
 ```
 
-## How it works
+## How it works ⚙️
 
 <details>
 <summary>How it works</summary>
