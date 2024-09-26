@@ -26,12 +26,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/legend80s/svgo-fine.git"
+    "url": "git+https://github.com/legend80s/svgo.git"
   },
   "bugs": {
-    "url": "https://github.com/legend80s/svgo-fine/issues"
+    "url": "https://github.com/legend80s/svgo/issues"
   },
-  "homepage": "https://github.com/legend80s/svgo-fine",
+  "homepage": "https://github.com/legend80s/svgo",
   "keywords": [
     "svg",
     "optimization",
