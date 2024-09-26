@@ -17,9 +17,10 @@
     "pub:patch": "npm version patch",
     "pub:minor": "npm version minor",
     "pub:major": "npm version major",
-    "preversion": "npm run test",
+    "preversion": "npm run cov",
     "postversion": "npm publish && git push && git push --tags",
-    "test": "node --test --experimental-test-coverage"
+    "cov": "node --test --experimental-test-coverage",
+    "test": "node --test"
   },
   "author": "legend80s",
   "license": "MIT",

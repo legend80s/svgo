@@ -19,14 +19,22 @@
 ## Features
 
 - Set `fill` to `"currentColor"` to fit in any color context.
+- Correct common invalid attribute `class` to `className`.
+- Add `width` and `height` according to the viewBox.
 - Output to `stdout` by default to make it easier to pipe to other tools (Save to file, copy to clipboard, etc.).
 - Pretty print with indent `2` by default (WHY? Because it will be compressed anyway by your bundler, and indent is necessary for human readability and `git diff`).
 - Colorful output by [shikijs](https://shiki.style/packages/cli).
 
 ## Examples
 
+optimize a SVG file and copy to clipboard:
+
 ```bash
-pnpx svgo-fine -i input.svg
+pnpx svgo-fine -i input.svg | clip # Windows
+```
+
+```bash
+pnpx svgo-fine -i input.svg | pbcopy # Macos
 ```
 
 Before:
