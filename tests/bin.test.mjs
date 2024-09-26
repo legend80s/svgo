@@ -28,7 +28,7 @@ it('should replace class to className and add width and height according to the 
   const actual = execSync(input).toString('utf8');
 
   const expected = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" className="design-iconfont" fill="currentColor" width="20" height="20">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75016 13.6225V6.37763L10.0002 2.75921L16.2502 6.37763V13.6225L10.0002 17.2409L3.75016 13.6225ZM17.9168 5.41671L10.0002 0.833374L2.0835 5.41671V14.5834L10.0002 19.1667L17.9168 14.5834V5.41671ZM10.8334 9.16667H13.3334L9.16675 15V10.8333H6.66675L10.8334 5V9.16667Z"/>
+  <path fillRule="evenodd" clipRule="evenodd" d="M3.75016 13.6225V6.37763L10.0002 2.75921L16.2502 6.37763V13.6225L10.0002 17.2409L3.75016 13.6225ZM17.9168 5.41671L10.0002 0.833374L2.0835 5.41671V14.5834L10.0002 19.1667L17.9168 14.5834V5.41671ZM10.8334 9.16667H13.3334L9.16675 15V10.8333H6.66675L10.8334 5V9.16667Z"/>
 </svg>
 `;
 
