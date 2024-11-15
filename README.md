@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/svg/svgo/main/logo/logo-web.svg" width="348.61" height="100" alt="SVGO-Fine"/>
 </div>
 
-# svgo-fine 🔬
+<h1 align="center">svgo-fine 🔩</h1>
 
 <p>
   <a href="https://www.npmjs.com/package/svgo-fine" target="_blank">
